@@ -77,7 +77,7 @@ export default function Home() {
             {/* Call to Action Footer */}
             <footer className="py-12 px-6 sm:px-16 bg-white dark:bg-zinc-900 text-center">
                 <p className="text-zinc-700 dark:text-zinc-300 mb-4">
-                    Pronto para começar? Crie sua conta e explore tudo que o StreamForge oferece.
+                    Pronto para começar? Crie sua conta e explore tudo que o StreamSentra oferece.
                 </p>
                 <a
                     href="/auth/register"
