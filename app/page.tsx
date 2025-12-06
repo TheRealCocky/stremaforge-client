@@ -7,11 +7,11 @@ export default function Home() {
         <header className="flex flex-col items-center justify-center text-center py-20 px-6 sm:px-16 bg-white dark:bg-zinc-900">
 
           <h1 className="text-4xl sm:text-5xl font-bold text-black dark:text-white mb-4 max-w-3xl">
-            StreamForge – O futuro do streaming de vídeos
+            StreamSentra – O futuro do streaming de vídeos
           </h1>
           <p className="text-lg sm:text-xl text-zinc-700 dark:text-zinc-300 max-w-2xl">
             Crie, gerencie e compartilhe vídeos de forma simples e eficiente.
-            StreamForge combina autenticação segura, upload de vídeos rápido e processamento inteligente para transformar a sua experiência digital.
+            StreamSentra combina autenticação segura, upload de vídeos rápido e processamento inteligente para transformar a sua experiência digital.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
@@ -77,7 +77,7 @@ export default function Home() {
         {/* Call to Action Footer */}
         <footer className="py-12 px-6 sm:px-16 bg-white dark:bg-zinc-900 text-center">
           <p className="text-zinc-700 dark:text-zinc-300 mb-4">
-            Pronto para começar? Crie sua conta e explore tudo que o StreamForge oferece.
+            Pronto para começar? Crie sua conta e explore tudo que o StreamSentra oferece.
           </p>
           <a
               href="/auth/register"
