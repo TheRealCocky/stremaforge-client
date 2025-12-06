@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📺 StreamSentra — Frontend
 
-## Getting Started
+A modern and responsive video-streaming dashboard built with **Next.js**, integrated with a Kafka-powered backend, Cloudinary video delivery, and secure JWT authentication.  
+Designed for speed, clarity, and a delightful user experience.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel" />
+</p>
+
+### Backend & Cloud
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nestjs" />  
+</p>
+
+- **Cloudinary** – Video upload & optimized delivery  
+- **Kafka** – Asynchronous events & processing  
+- **JWT Auth** – Secure user authentication  
+
+---
+
+## ✨ Features
+
+### 👤 User-Facing Experience
+- Clean and elegant UI  
+- Fully responsive (mobile & desktop)  
+- Dark mode support  
+- Smooth video playback  
+- Beautiful homepage promoting the platform  
+
+### 🔐 Authentication
+- Secure login and registration  
+- JWT-based session handling  
+- Automatic redirect if user is not authenticated  
+
+### 🎞️ Video Management
+- Upload videos to Cloudinary  
+- View all your videos in a responsive grid  
+- Watch videos directly in the dashboard  
+- Open video source link  
+- Loading, empty states, and error handling  
+
+---
+
+## 📁 Project Structure
+
+frontend/
+│── app/
+│ ├── auth/
+│ │ ├── login/
+│ │ └── register/
+│ ├── video/
+│ │ ├── create/
+│ │ └── get-all/
+│ └── page.tsx
+│
+│── context/
+│ └── AuthContext.tsx
+│
+│── server/
+│ └── api.ts
+│
+│── components/
+│
+└── public/
+
+---
+
+## 🔧 Environment Variables
+
+Create a `.env.local` file:
+
+NEXT_PUBLIC_API_URL=https://your-backend-url.com
+
+
+---
+
+## ▶️ Run Locally
 
 ```bash
+git clone https://github.com/TheRealCocky/stremaforge-client
+cd stremaforge-client
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+App running at:
+👉 http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧩 API Integration
 
-## Learn More
+This frontend consumes the official StreamSentra backend:
 
-To learn more about Next.js, take a look at the following resources:
+➡️ Backend Repository:
+https://github.com/TheRealCocky/stremaforge-server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Endpoints used:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+POST /auth/register
+POST /auth/login
+GET  /videos
+POST /videos/create
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All video routes require a Bearer token.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌐 Deployment
+
+Optimized for Vercel:
+
+vercel deploy
+
+
+Live version:
+🔗 https://streamsentra.vercel.app
+
+🧑‍💻 Author
+
+TheRealCocky
+Full-stack developer passionate about cloud media pipelines, modern web apps, and distributed systems.
+
+⭐ Contribute
+
+PRs and suggestions are welcome!
+
+
+
