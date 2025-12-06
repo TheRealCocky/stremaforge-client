@@ -50,25 +50,24 @@ Designed for speed, clarity, and a delightful user experience.
 
 frontend/
 │── app/
-│ ├── auth/
-│ │ ├── login/
-│ │ └── register/
-│ ├── video/
-│ │ ├── create/
-│ │ └── get-all/
-│ └── page.tsx
+│   ├── auth/
+│   │   ├── login/
+│   │   └── register/
+│   ├── video/
+│   │   ├── create/
+│   │   └── get-all/
+│   └── page.tsx
 │
 │── context/
-│ └── AuthContext.tsx
+│   └── AuthContext.tsx
 │
 │── server/
-│ └── api.ts
+│   └── api.ts
 │
 │── components/
 │
 └── public/
 
----
 
 ## 🔧 Environment Variables
 
