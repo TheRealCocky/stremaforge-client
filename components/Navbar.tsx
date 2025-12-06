@@ -17,7 +17,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <Link href="/video/home" className="text-2xl font-bold text-black dark:text-white">
-                    StreamForge
+                    StreamSentra
                 </Link>
 
                 {/* Desktop Menu */}
