@@ -35,42 +35,49 @@ export default function Home() {
                     Funcionalidades
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Autenticação Segura</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Crie Sua Conta com Facilidade</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            Registre-se e faça login com segurança usando autenticação moderna e tokens JWT.
+                            Comece em poucos segundos: basta criar sua conta e você já pode usar a plataforma sem complicações.
                         </p>
                     </div>
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Upload e Criação de Vídeos</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Envie Seus Vídeos</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            Faça upload de vídeos e processe conteúdo de maneira rápida e confiável.
+                            Faça upload de vídeos direto do seu dispositivo e deixe o resto com a nossa plataforma.
                         </p>
                     </div>
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Visualização e Gestão</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Assista e Gerencie</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            Navegue pelos vídeos, organize conteúdos e compartilhe com facilidade.
+                            Veja seus vídeos quando quiser, organize como preferir e acompanhe tudo em um só lugar.
                         </p>
                     </div>
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Cloud Integration</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Tudo Salvo com Segurança</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            Integração com serviços de nuvem como Cloudinary para armazenar e servir vídeos com performance.
+                            Seus vídeos ficam guardados com segurança na nuvem, sem risco de perder seus arquivos.
                         </p>
                     </div>
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">API Simples</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Interface Fácil de Usar</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            Conecte-se facilmente com o backend via endpoints REST para autenticação, vídeos e usuários.
+                            A plataforma foi criada para ser simples e rápida, funcionando bem no computador e no celular.
                         </p>
                     </div>
+
                     <div className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Design Responsivo</h3>
+                        <h3 className="text-xl font-bold text-black dark:text-white mb-2">Compartilhe Conteúdo</h3>
                         <p className="text-zinc-700 dark:text-zinc-300">
-                            A interface se adapta a qualquer dispositivo, garantindo ótima experiência mobile e desktop.
+                            Compartilhe seus vídeos com amigos, seguidores ou clientes de forma prática.
                         </p>
                     </div>
+
                 </div>
             </section>
 
