@@ -57,12 +57,12 @@ export default function CreatePage() {
                 onSubmit={handleSubmit}
                 className="bg-white rounded-xl shadow-lg p-8 max-w-md w-full"
             >
-                <h1 className="text-2xl font-bold mb-6">Upload de Vídeo</h1>
+                <h1 className="text-2xl font-bold mb-6 dark:text-black">Upload de Vídeo</h1>
 
                 {error && <p className="text-red-500">{error}</p>}
                 {success && <p className="text-green-500">{success}</p>}
 
-                <label className="block my-2">Título</label>
+                <label className="block my-2 dark:text-black">Título</label>
                 <input
                     className="w-full border rounded p-2 dark:text-black"
                     value={title}
@@ -70,7 +70,7 @@ export default function CreatePage() {
                     required
                 />
 
-                <label className="block my-2">Selecionar vídeo</label>
+                <label className="block my-2 dark:text-black">Selecionar vídeo</label>
                 <input
                     type="file"
                     accept="video/*"
